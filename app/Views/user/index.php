@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Maxim Bootstrap Template - Index</title>
+    <title>RPL - Index</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -44,7 +44,7 @@
         <div class="container d-flex justify-content-between">
 
             <div class="logo">
-                <h1><a href="index.html">Maxim</a></h1>
+                <h1><a href="index.html">RPL</a></h1>
                 <!-- Uncomment below if you prefer to use an image logo -->
                 <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
             </div>
@@ -85,8 +85,8 @@
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
         <div class="container text-center text-md-left" data-aos="fade-up">
-            <h1>Welcome to Maxim</h1>
-            <h2>We are team of talented designers making websites with Bootstrap</h2>
+            <h1>Welcome to Company</h1>
+            <h2>Selamat datang di website rpl.smkn4malang.sch.id</h2>
             <a href="#about" class="btn-get-started scrollto">Get Started</a>
         </div>
     </section><!-- End Hero -->
@@ -99,32 +99,28 @@
 
                 <div class="row">
                     <div class="col-xl-6 col-lg-7" data-aos="fade-right">
-                        <img src="assets/img/about-img.jpg" class="img-fluid" alt="">
+                        <img src="assets/img/lab1.jpg" class="img-fluid" alt="">
                     </div>
                     <div class="col-xl-6 col-lg-5 pt-5 pt-lg-0">
-                        <h3 data-aos="fade-up">Voluptatem dignissimos provident</h3>
+                        <h3 data-aos="fade-up">Rekayasa Perangkat Lunak (Software Engineering)</h3>
                         <p data-aos="fade-up">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua.
+                            Program keahlian yang mempersiapkan siswa menjadi tenaga terampil di bidang pemrogaman
+                            software.
+                            Siswa di bekali kemampuan dasar instalasi hardware dan software komputer, penguasaan bahasa
+                            pemrogaman (C++, Java, Python, JavaScript, PHP dsb),
+                            dan pengolahan database (Microsoft Acces, MySQL, dsb) <br> <br>
+                            <b>Peluang Kerja: </b> <br>
+                            Menjadi tenaga ahli pemrograman komputer pada perusahaan/instansi yang khusus bergerak
+                            dibidang jasa teknologi informasi
+                            ataupun perusahaan umum yang telah menggunakan teknologi informatika (komputerisasi) dalam
+                            menjalankan aktifitaasnya atau berwirausaha.
                         </p>
-                        <div class="icon-box" data-aos="fade-up">
-                            <i class="bx bx-receipt"></i>
-                            <h4>Corporis voluptates sit</h4>
-                            <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
-                        </div>
-
-                        <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-                            <i class="bx bx-cube-alt"></i>
-                            <h4>Ullamco laboris nisi</h4>
-                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
-                        </div>
-
-                        <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-                            <i class="bx bx-cube-alt"></i>
-                            <h4>Ullamco laboris nisi</h4>
-                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
-                        </div>
-
+                    </div>
+                    <div class="col-xl-6 col-lg-5 pt-5 pt-lg-0">
+                        PPP
+                    </div>
+                    <div class="col-xl-6 col-lg-5 pt-5 pt-lg-0">
+                        PPPP
                     </div>
                 </div>
 
@@ -762,13 +758,13 @@
                             <div class="address">
                                 <i class="bi bi-geo-alt"></i>
                                 <h4>Location:</h4>
-                                <p>A108 Adam Street, New York, NY 535022</p>
+                                <p>Jl. Tanimbar No.22, Kasin, Kec. Klojen, Kota Malang, Jawa Timur 65117</p>
                             </div>
 
                             <div class="email mt-4">
                                 <i class="bi bi-envelope"></i>
                                 <h4>Email:</h4>
-                                <p>info@example.com</p>
+                                <p>rpl.smkn4malang.sch.id</p>
                             </div>
 
                             <div class="phone mt-4">
@@ -782,9 +778,9 @@
                     </div>
 
                     <div class="col-lg-5 d-flex align-items-stretch">
-                        <iframe style="border:0; width: 100%; height: 270px;"
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
-                            frameborder="0" allowfullscreen></iframe>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15804.339993250223!2d112.627182!3d-7.9901589!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x90fd5c6fcedf6acf!2sSMK%20Negeri%204%20Kota%20Malang!5e0!3m2!1sid!2sid!4v1643936268753!5m2!1sid!2sid"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </div>
 
                 </div>
@@ -834,12 +830,12 @@
 
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-info">
-                            <h3>Maxim</h3>
+                            <h3>RPL</h3>
                             <p>
-                                A108 Adam Street <br>
-                                NY 535022, USA<br><br>
+                                Jl. Tanimbar No.22,Kasin <br>
+                                Kec. Klojen, Kota Malang, Jawa Timur 65117<br><br>
                                 <strong>Phone:</strong> +1 5589 55488 55<br>
-                                <strong>Email:</strong> info@example.com<br>
+                                <strong>Email:</strong> rpl.smkn4malang.sch.id<br>
                             </p>
                             <div class="social-links mt-3">
                                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
