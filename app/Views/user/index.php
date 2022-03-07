@@ -44,7 +44,7 @@
         <div class="container d-flex justify-content-between">
 
             <div class="logo">
-                <h1><a href="index.html">RPL</a></h1>
+                <h1><a href="">RPL</a></h1>
                 <!-- Uncomment below if you prefer to use an image logo -->
                 <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
             </div>
@@ -99,7 +99,7 @@
 
                 <div class="row">
                     <div class="col-xl-6 col-lg-7" data-aos="fade-right">
-                        <img src="assets/img/lab1.jpg" class="img-fluid" alt="">
+                        <img src="assets/img/about.jpg" class="img-fluid" alt="">
                     </div>
                     <div class="col-xl-6 col-lg-5 pt-5 pt-lg-0">
                         <h3 data-aos="fade-up">Rekayasa Perangkat Lunak (Software Engineering)</h3>
@@ -116,69 +116,224 @@
                             menjalankan aktifitaasnya atau berwirausaha.
                         </p>
                     </div>
-                    <div class="col-xl-6 col-lg-5 pt-5 pt-lg-0">
-                        PPP
-                    </div>
-                    <div class="col-xl-6 col-lg-5 pt-5 pt-lg-0">
-                        PPPP
-                    </div>
                 </div>
 
             </div>
         </section><!-- End About Section -->
 
-        <!-- ======= Steps Section ======= -->
-        <section id="steps" class="steps section-bg">
+        <!-- ======= F.A.Q Section ======= -->
+        <section id="faq" class="faq section-bg">
+            <div class="parent-container" style="display: flex; flex-wrap: wrap; justify-content: space-left;">
+
+                <div class="container-fluid col-xl-6">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="section-title" data-aos="fade-up">
+                                <h2>Dasar Program Keahlian</h2>
+                            </div>
+
+                            <div class="faq-list">
+                                <ul>
+                                    <li data-aos="fade-up">
+                                        <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
+                                            class="collapse" data-bs-target="#faq-list-1">Sistem Komputer<i
+                                                class="bx bx-chevron-down icon-show"></i><i
+                                                class="bx bx-chevron-up icon-close"></i></a>
+                                        <div id="faq-list-1" class="collapse" data-bs-parent=".faq-list">
+                                            <p>
+                                                Kumpulan perangkat-perangkat komputer yang saling berhubungan
+                                                dan berinteraksi satu
+                                                sama lain untuk melakukan proses pengolahan data, sehingga dapat​​
+                                                menghasilkan informasi yang
+                                                diharapkan oleh penggunanya.
+                                                Perangkat yang terdapat pada Sistem Komputer diantaranya​​ Hardware​​
+                                                ,​​ Software ,​​ dan​​
+                                                Brainware.
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="faq-list">
+                                <ul>
+                                    <li data-aos="fade-up" data-aos-delay="100">
+                                        <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
+                                            data-bs-target="#faq-list-2" class="collapsed">Pemrograman Dasar<i
+                                                class="bx bx-chevron-down icon-show"></i><i
+                                                class="bx bx-chevron-up icon-close"></i></a>
+                                        <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+                                            <p>
+                                                Ilmu yang mempelajari tentang pemrograman komputer menggunakan bahasa
+                                                pemrograman populer seperti Java, pascal,PHP, Python atau C++.
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="faq-list">
+                                <ul>
+                                    <li data-aos="fade-up" data-aos-delay="100">
+                                        <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
+                                            data-bs-target="#faq-list-3" class="collapsed">Komputer Jaringan Dasar<i
+                                                class="bx bx-chevron-down icon-show"></i><i
+                                                class="bx bx-chevron-up icon-close"></i></a>
+                                        <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+                                            <p>
+                                                ilmu yang mempelajari tentang perangkat keras dan lunak komputer mulai
+                                                merakit PC, menginstall sistem operasi,
+                                                mengatur BIOS, menginstall driver peripheral, menganalisa jaringan
+                                                LAN,WAN dan MAN,
+                                                mengkonfigurasi IP address, dan merawat jaringan LAN,MAN dan WAN.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li data-aos="fade-up" data-aos-delay="200">
+                                        <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
+                                            data-bs-target="#faq-list-4" class="collapsed">Dasar Desain Grafis<i
+                                                class="bx bx-chevron-down icon-show"></i><i
+                                                class="bx bx-chevron-up icon-close"></i></a>
+                                        <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+                                            <p>
+                                                Mata pelajaran yang membahas unsur-unsur desain grafis, macam warna,
+                                                format gambar serta perangkat lunak pengolah gambar.
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid col-xl-6">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="section-title" data-aos="fade-up">
+                                <h2>Kompetensi Keahlian</h2>
+                            </div>
+
+                            <div class="faq-list">
+                                <ul>
+                                    <li data-aos="fade-up" data-aos-delay="400">
+                                        <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
+                                            class="collapsed" data-bs-target="#faq-list-5">Pemodelan Perangkat Lunak<i
+                                                class="bx bx-chevron-down icon-show"></i><i
+                                                class="bx bx-chevron-up icon-close"></i></a>
+                                        <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
+                                            <p>
+                                                Disiplin ilmu untuk mempelajari bentuk-bentuk pemodelan perangkat lunak
+                                                yang digunakan
+                                                sebagai bagian dari tahapan pengembangan perangkat lunak secara
+                                                terstruktur dan berorientasi objek.
+                                            </p>
+                                        </div>
+                                    </li>
+
+                                    <li data-aos="fade-up" data-aos-delay="500">
+                                        <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
+                                            class="collapsed" data-bs-target="#faq-list-6">Basis Data<i
+                                                class="bx bx-chevron-down icon-show"></i><i
+                                                class="bx bx-chevron-up icon-close"></i></a>
+                                        <div id="faq-list-6" class="collapse" data-bs-parent=".faq-list">
+                                            <p>
+                                                Basis Data adalah kumpulan informasi yang disimpan dalam komputer secara
+                                                sistematik sehingga dapat diperiksa menggunakan suatu program komputer
+                                                untuk memperoleh informasi dari database.
+                                            </p>
+                                        </div>
+
+                                    <li data-aos="fade-up" data-aos-delay="600">
+                                        <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
+                                            class="collapsed" data-bs-target="#faq-list-7">Pemrograman Berorientasi
+                                            Obyek<i class="bx bx-chevron-down icon-show"></i><i
+                                                class="bx bx-chevron-up icon-close"></i></a>
+                                        <div id="faq-list-7" class="collapse" data-bs-parent=".faq-list">
+                                            <p>
+                                                Paradigma pemrograman berdasarkan konsep “objek”, yang dapat berisi
+                                                data,
+                                                dalam bentuk field atau dikenal juga sebagai atribut; serta kode, dalam
+                                                bentuk fungsi/prosedur atau dikenal juga sebagai method.
+                                                Semua data dan fungsi di dalam paradigma ini dibungkus dalam kelas-kelas
+                                                atau objek-objek.
+                                            </p>
+                                        </div>
+                                    </li>
+
+                                    <li data-aos="fade-up" data-aos-delay="700">
+                                        <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
+                                            class="collapsed" data-bs-target="#faq-list-8">Pemrograman Web dan Perangkat
+                                            Bergerak<i class="bx bx-chevron-down icon-show"></i><i
+                                                class="bx bx-chevron-up icon-close"></i></a>
+                                        <div id="faq-list-8" class="collapse" data-bs-parent=".faq-list">
+                                            <p>
+                                                Materi pembelajaran yang mempelajari tentang pembuatan website atau
+                                                sistem dan
+                                                juga mempelajari pembuatan aplikasi untuk perangkat bergerak (perangkat
+                                                yang bisa dibawa kemana-mana seperti Handphone atau tablet).
+                                            </p>
+                                        </div>
+                                    </li>
+
+                                    <li data-aos="fade-up" data-aos-delay="800">
+                                        <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
+                                            class="collapsed" data-bs-target="#faq-list-9">Produk Kreatif dan
+                                            Kewirausahaan<i class="bx bx-chevron-down icon-show"></i><i
+                                                class="bx bx-chevron-up icon-close"></i></a>
+                                        <div id="faq-list-9" class="collapse" data-bs-parent=".faq-list">
+                                            <p>
+                                                Produk kreatif dan kewirausahaan atau PKK terdiri dari dua kata yaitu
+                                                "Produk Kreatif"
+                                                dan "Kewirausahaan". Produk kreatif mempunyai arti yaitu suatu produk
+                                                yang dihasilkan dari kreatifitas dan mempunyai inovasi tertentu.
+                                                Sedangkan kewirausahaan adalah sebuah usaha dengan tujuan untuk
+                                                memperoleh pendapatan dengan jalan bisnis mandiri. Singkatnya membangun
+                                                usaha sendiri.
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+        </section><!-- End F.A.Q Section -->
+
+        <!-- ======= Partner Section ======= -->
+        <section id="partner" class="partner section-bg">
             <div class="container">
 
-                <div class="row no-gutters">
+                <div class="row">
 
-                    <div class="col-lg-4 col-md-6 content-item" data-aos="fade-in">
-                        <span>01</span>
-                        <h4>Lorem Ipsum</h4>
-                        <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat
-                        </p>
+                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                        <img src="assets/img/partner/ezy.svg" class="img-fluid" alt="">
                     </div>
 
-                    <div class="col-lg-4 col-md-6 content-item" data-aos="fade-in" data-aos-delay="100">
-                        <span>02</span>
-                        <h4>Repellat Nihil</h4>
-                        <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire
-                            leno para dest</p>
+                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                        <img src="assets/img/partner/client-2.png" class="img-fluid" alt="">
                     </div>
 
-                    <div class="col-lg-4 col-md-6 content-item" data-aos="fade-in" data-aos-delay="200">
-                        <span>03</span>
-                        <h4> Ad ad velit qui</h4>
-                        <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis
-                        </p>
+                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                        <img src="assets/img/partner/client-3.png" class="img-fluid" alt="">
                     </div>
 
-                    <div class="col-lg-4 col-md-6 content-item" data-aos="fade-in" data-aos-delay="300">
-                        <span>04</span>
-                        <h4>Repellendus molestiae</h4>
-                        <p>Inventore quo sint a sint rerum. Distinctio blanditiis deserunt quod soluta quod nam mider
-                            lando casa</p>
+                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                        <img src="assets/img/partner/client-4.png" class="img-fluid" alt="">
                     </div>
 
-                    <div class="col-lg-4 col-md-6 content-item" data-aos="fade-in" data-aos-delay="400">
-                        <span>05</span>
-                        <h4>Sapiente Magnam</h4>
-                        <p>Vitae dolorem in deleniti ipsum omnis tempore voluptatem. Qui possimus est repellendus est
-                            quibusdam</p>
+                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                        <img src="assets/img/partner/client-5.png" class="img-fluid" alt="">
                     </div>
 
-                    <div class="col-lg-4 col-md-6 content-item" data-aos="fade-in" data-aos-delay="500">
-                        <span>06</span>
-                        <h4>Facilis Impedit</h4>
-                        <p>Quis eum numquam veniam ea voluptatibus voluptas. Excepturi aut nostrum repudiandae
-                            voluptatibus corporis sequi</p>
+                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                        <img src="assets/img/partner/client-6.png" class="img-fluid" alt="">
                     </div>
 
                 </div>
 
             </div>
-        </section><!-- End Steps Section -->
+        </section><!-- End Clients Section -->
 
         <!-- ======= Features Section ======= -->
         <section id="features" class="features">
@@ -303,7 +458,7 @@
             <div class="container">
 
                 <div class="section-title" data-aos="fade-up">
-                    <h2>Testimonials</h2>
+                    <h2>Berita Seputar RPL</h2>
                     <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
                         sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias
                         ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
@@ -316,14 +471,15 @@
                             <div class="testimonial-item">
                                 <p>
                                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit
-                                    rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam,
-                                    risus at semper.
+                                    Lomba Kompetensi Siswa (LKS) merupakan ajang tahunan yang dilaksanakan di untuk
+                                    mengasah kompetensi sesuai
+                                    dengan bidang keahlian masing-masing. LKS merupakan lomba berjenjang mulai dari […]
                                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                                 </p>
                                 <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                                <h3>Saul Goodman</h3>
-                                <h4>Ceo &amp; Founder</h4>
+                                <h3>Pelaksanaan LKS Wilker 3 di Blitar</h3>
+                                <h4>Baca Selengkapnya... </h4>
+                                <!-- <h4>Ceo &amp; Founder</h4> -->
                             </div>
                         </div><!-- End testimonial item -->
 
@@ -331,14 +487,14 @@
                             <div class="testimonial-item">
                                 <p>
                                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                    Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid
-                                    cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet
-                                    legam anim culpa.
+                                    Lomba Kompetensi Siswa (LKS) merupakan ajang tahunan yang dilaksanakan di untuk
+                                    mengasah kompetensi sesuai
+                                    dengan bidang keahlian masing-masing. LKS merupakan lomba berjenjang mulai dari […]
                                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                                 </p>
                                 <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                                <h3>Sara Wilsson</h3>
-                                <h4>Designer</h4>
+                                <h3>Pelaksanaan LKS Wilker 3 di Blitar</h3>
+                                <h4>Baca Selengkapnya... </h4>
                             </div>
                         </div><!-- End testimonial item -->
 
@@ -346,14 +502,14 @@
                             <div class="testimonial-item">
                                 <p>
                                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                    Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem
-                                    veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint
-                                    minim.
+                                    Lomba Kompetensi Siswa (LKS) merupakan ajang tahunan yang dilaksanakan di untuk
+                                    mengasah kompetensi sesuai
+                                    dengan bidang keahlian masing-masing. LKS merupakan lomba berjenjang mulai dari […]
                                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                                 </p>
                                 <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                                <h3>Jena Karlis</h3>
-                                <h4>Store Owner</h4>
+                                <h3>Pelaksanaan LKS Wilker 3 di Blitar</h3>
+                                <h4>Baca Selengkapnya... </h4>
                             </div>
                         </div><!-- End testimonial item -->
 
@@ -361,14 +517,14 @@
                             <div class="testimonial-item">
                                 <p>
                                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                    Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim
-                                    fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem
-                                    dolore labore illum veniam.
+                                    Lomba Kompetensi Siswa (LKS) merupakan ajang tahunan yang dilaksanakan di untuk
+                                    mengasah kompetensi sesuai
+                                    dengan bidang keahlian masing-masing. LKS merupakan lomba berjenjang mulai dari […]
                                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                                 </p>
                                 <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                                <h3>Matt Brandon</h3>
-                                <h4>Freelancer</h4>
+                                <h3>Pelaksanaan LKS Wilker 3 di Blitar</h3>
+                                <h4>Baca Selengkapnya... </h4>
                             </div>
                         </div><!-- End testimonial item -->
 
@@ -376,14 +532,14 @@
                             <div class="testimonial-item">
                                 <p>
                                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                    Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster
-                                    veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam
-                                    culpa fore nisi cillum quid.
+                                    Lomba Kompetensi Siswa (LKS) merupakan ajang tahunan yang dilaksanakan di untuk
+                                    mengasah kompetensi sesuai
+                                    dengan bidang keahlian masing-masing. LKS merupakan lomba berjenjang mulai dari […]
                                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                                 </p>
                                 <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                                <h3>John Larson</h3>
-                                <h4>Entrepreneur</h4>
+                                <h3>Pelaksanaan LKS Wilker 3 di Blitar</h3>
+                                <h4>Baca Selengkapnya... </h4>
                             </div>
                         </div><!-- End testimonial item -->
 
@@ -576,8 +732,8 @@
                             <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
                             <div class="member-info">
                                 <div class="member-info-content">
-                                    <h4>Walter White</h4>
-                                    <span>Chief Executive Officer</span>
+                                    <h4>WDhanang Fitra Riaji, S.Si., M.T</h4>
+                                    <span>Kepala Program (PWPB) </span>
                                 </div>
                                 <div class="social">
                                     <a href=""><i class="bi bi-twitter"></i></a>
@@ -594,8 +750,8 @@
                             <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
                             <div class="member-info">
                                 <div class="member-info-content">
-                                    <h4>Sarah Jhonson</h4>
-                                    <span>Product Manager</span>
+                                    <h4>Dian Retno Y</h4>
+                                    <span>Kepala Bengkel (PPL)</span>
                                 </div>
                                 <div class="social">
                                     <a href=""><i class="bi bi-twitter"></i></a>
@@ -612,8 +768,8 @@
                             <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
                             <div class="member-info">
                                 <div class="member-info-content">
-                                    <h4>William Anderson</h4>
-                                    <span>CTO</span>
+                                    <h4>M. Mahmudi, M.Pd</h4>
+                                    <span>Guru (Basis Data)</span>
                                 </div>
                                 <div class="social">
                                     <a href=""><i class="bi bi-twitter"></i></a>
@@ -630,8 +786,26 @@
                             <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
                             <div class="member-info">
                                 <div class="member-info-content">
-                                    <h4>Amanda Jepson</h4>
-                                    <span>Accountant</span>
+                                    <h4>Anggraeni Tyas Sari, S.Kom</h4>
+                                    <span>Guru (PBO)</span>
+                                </div>
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="member">
+                            <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+                            <div class="member-info">
+                                <div class="member-info-content">
+                                    <h4>Septi Retno, S.Pd</h4>
+                                    <span>Guru (PWPB)</span>
                                 </div>
                                 <div class="social">
                                     <a href=""><i class="bi bi-twitter"></i></a>
@@ -647,98 +821,6 @@
 
             </div>
         </section><!-- End Team Section -->
-
-        <!-- ======= F.A.Q Section ======= -->
-        <section id="faq" class="faq section-bg">
-            <div class="container">
-
-                <div class="section-title" data-aos="fade-up">
-                    <h2>F.A.Q</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
-                        sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias
-                        ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-                </div>
-
-                <div class="faq-list">
-                    <ul>
-                        <li data-aos="fade-up">
-                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse"
-                                data-bs-target="#faq-list-1">Non consectetur a erat nam at lectus urna duis? <i
-                                    class="bx bx-chevron-down icon-show"></i><i
-                                    class="bx bx-chevron-up icon-close"></i></a>
-                            <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
-                                <p>
-                                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet
-                                    non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor
-                                    purus non.
-                                </p>
-                            </div>
-                        </li>
-
-                        <li data-aos="fade-up" data-aos-delay="100">
-                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
-                                data-bs-target="#faq-list-2" class="collapsed">Feugiat scelerisque varius morbi enim
-                                nunc? <i class="bx bx-chevron-down icon-show"></i><i
-                                    class="bx bx-chevron-up icon-close"></i></a>
-                            <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
-                                <p>
-                                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum
-                                    velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend
-                                    donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in
-                                    cursus turpis massa tincidunt dui.
-                                </p>
-                            </div>
-                        </li>
-
-                        <li data-aos="fade-up" data-aos-delay="200">
-                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
-                                data-bs-target="#faq-list-3" class="collapsed">Dolor sit amet consectetur adipiscing
-                                elit? <i class="bx bx-chevron-down icon-show"></i><i
-                                    class="bx bx-chevron-up icon-close"></i></a>
-                            <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
-                                <p>
-                                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus
-                                    pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit.
-                                    Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis
-                                    tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
-                                </p>
-                            </div>
-                        </li>
-
-                        <li data-aos="fade-up" data-aos-delay="300">
-                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
-                                data-bs-target="#faq-list-4" class="collapsed">Tempus quam pellentesque nec nam aliquam
-                                sem et tortor consequat? <i class="bx bx-chevron-down icon-show"></i><i
-                                    class="bx bx-chevron-up icon-close"></i></a>
-                            <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
-                                <p>
-                                    Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in
-                                    est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl
-                                    suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.
-                                </p>
-                            </div>
-                        </li>
-
-                        <li data-aos="fade-up" data-aos-delay="400">
-                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
-                                data-bs-target="#faq-list-5" class="collapsed">Tortor vitae purus faucibus ornare.
-                                Varius vel pharetra vel turpis nunc eget lorem dolor? <i
-                                    class="bx bx-chevron-down icon-show"></i><i
-                                    class="bx bx-chevron-up icon-close"></i></a>
-                            <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
-                                <p>
-                                    Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo
-                                    integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc
-                                    eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
-                                </p>
-                            </div>
-                        </li>
-
-                    </ul>
-                </div>
-
-            </div>
-        </section><!-- End F.A.Q Section -->
 
         <!-- ======= Contact Section ======= -->
         <section id="contact" class="contact">
@@ -912,4 +994,4 @@
 
 </body>
 
-</html>
+</html>gramPM
