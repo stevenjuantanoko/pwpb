@@ -96,7 +96,10 @@
         <!-- ======= About Section ======= -->
         <section id="about" class="about">
             <div class="container">
-
+                <div class="section-title" data-aos="fade-up">
+                    <h2>About
+                    </h2>
+                </div>
                 <div class="row">
                     <div class="col-xl-6 col-lg-7" data-aos="fade-right">
                         <img src="assets/img/about.jpg" class="img-fluid" alt="">
@@ -492,21 +495,6 @@
                                     dengan bidang keahlian masing-masing. LKS merupakan lomba berjenjang mulai dari […]
                                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                                 </p>
-                                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                                <h3>Pelaksanaan LKS Wilker 3 di Blitar</h3>
-                                <h4>Baca Selengkapnya... </h4>
-                            </div>
-                        </div><!-- End testimonial item -->
-
-                        <div class="swiper-slide">
-                            <div class="testimonial-item">
-                                <p>
-                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                    Lomba Kompetensi Siswa (LKS) merupakan ajang tahunan yang dilaksanakan di untuk
-                                    mengasah kompetensi sesuai
-                                    dengan bidang keahlian masing-masing. LKS merupakan lomba berjenjang mulai dari […]
-                                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                                </p>
                                 <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
                                 <h3>Pelaksanaan LKS Wilker 3 di Blitar</h3>
                                 <h4>Baca Selengkapnya... </h4>
@@ -549,6 +537,133 @@
 
             </div>
         </section><!-- End Testimonials Section -->
+
+        <!-- ======= Latest News Section ======= -->
+        <section id="testimonials" class="testimonials section-news section-t8">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 offset-sm-4">
+                        <div class="section-title" data-aos="fade-up">
+                            <h2>Latest News
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="col-sm-1 offset-sm-3">
+                        <div class="title-link">
+                            <a href="blog-grid.php">More<i class="bi bi-chevron-right"></i>
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="news-carousel" class="testimonials-slider swiper">
+                            <div class="swiper-wrapper">
+
+                                <div class="carousel-item-c swiper-slide">
+                                    <div class="card-box-b card-shadow news-box">
+                                        <div class="img-box-b">
+                                            <img src="assets/img/post-2.jpg" alt="" class="img-b img-fluid">
+                                        </div>
+                                        <div class="card-overlay">
+                                            <div class="card-header-b">
+                                                <div class="card-category-b">
+                                                    <a href="#" class="category-b">House</a>
+                                                </div>
+                                                <div class="card-title-b">
+                                                    <h2 class="title-2">
+                                                        <a href="blog-single.html">House is comming
+                                                            <br> new</a>
+                                                    </h2>
+                                                </div>
+                                                <div class="card-date">
+                                                    <span class="date-b">18 Sep. 2017</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!-- End carousel item -->
+
+                                <div class="carousel-item-c swiper-slide">
+                                    <div class="card-box-b card-shadow news-box">
+                                        <div class="img-box-b">
+                                            <img src="assets/img/post-5.jpg" alt="" class="img-b img-fluid">
+                                        </div>
+                                        <div class="card-overlay">
+                                            <div class="card-header-b">
+                                                <div class="card-category-b">
+                                                    <a href="#" class="category-b">Travel</a>
+                                                </div>
+                                                <div class="card-title-b">
+                                                    <h2 class="title-2">
+                                                        <a href="blog-single.html">Travel is comming
+                                                            <br> new</a>
+                                                    </h2>
+                                                </div>
+                                                <div class="card-date">
+                                                    <span class="date-b">18 Sep. 2017</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!-- End carousel item -->
+
+                                <div class="carousel-item-c swiper-slide">
+                                    <div class="card-box-b card-shadow news-box">
+                                        <div class="img-box-b">
+                                            <img src="assets/img/post-5.jpg" alt="" class="img-b img-fluid">
+                                        </div>
+                                        <div class="card-overlay">
+                                            <div class="card-header-b">
+                                                <div class="card-category-b">
+                                                    <a href="#" class="category-b">Park</a>
+                                                </div>
+                                                <div class="card-title-b">
+                                                    <h2 class="title-2">
+                                                        <a href="blog-single.html">Park is comming
+                                                            <br> new</a>
+                                                    </h2>
+                                                </div>
+                                                <div class="card-date">
+                                                    <span class="date-b">18 Sep. 2017</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!-- End carousel item -->
+
+                                <div class="carousel-item-c swiper-slide">
+                                    <div class="card-box-b card-shadow news-box">
+                                        <div class="img-box-b">
+                                            <img src="assets/img/post-3.jpg" alt="" class="img-b img-fluid">
+                                        </div>
+                                        <div class="card-overlay">
+                                            <div class="card-header-b">
+                                                <div class="card-category-b">
+                                                    <a href="#" class="category-b">Travel</a>
+                                                </div>
+                                                <div class="card-title-b">
+                                                    <h2 class="title-2">
+                                                        <a href="#">Travel is comming
+                                                            <br> new</a>
+                                                    </h2>
+                                                </div>
+                                                <div class="card-date">
+                                                    <span class="date-b">18 Sep. 2017</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!-- End carousel item -->
+
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- End Latest News Section -->
 
         <!-- ======= Portfolio Section ======= -->
         <section id="portfolio" class="portfolio section-bg">

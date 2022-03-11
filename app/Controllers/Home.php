@@ -8,4 +8,12 @@ class Home extends BaseController
     {
         return view('user/index');
     }
+    public function blog_grid()
+    {
+        return view('user/blog-grid');
+    }
+    public function blog_single()
+    {
+        return view('user/blog-single');
+    }
 }
