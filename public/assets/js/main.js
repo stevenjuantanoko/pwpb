@@ -278,7 +278,7 @@
     body.classList.remove('box-collapse-open')
     body.classList.add('box-collapse-closed')
   })
-
+/* agency */
   /**
    * Intro Carousel
    */
@@ -390,6 +390,13 @@
     }
   });
 
+  /* bootlander */
+    /**
+   * Initiate gallery lightbox 
+   */
+     const galleryLightbox = GLightbox({
+      selector: '.gallery-lightbox'
+    });
   
 
 })()

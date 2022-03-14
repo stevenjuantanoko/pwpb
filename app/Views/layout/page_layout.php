@@ -51,10 +51,10 @@
 
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a class="nav-link scrollto active" href="<?= base_url('/home') ?>">Home</a></li>
-                    <li><a class="nav-link" href="<?= base_url('/home#about') ?>">About</a></li>
-                    <li><a class="nav-link scrollto" href="<?= base_url('/home#services') ?>">Services</a></li>
-                    <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
+                    <li><a class="nav-link scrollto" href="<?= base_url('/home#hero') ?>">Home</a></li>
+                    <li><a class="nav-link scrollto" href="<?= base_url('/home#about') ?>">About</a></li>
+                    <li><a class="nav-link scrollto" href="<?= base_url('/home#news') ?>">News</a></li>
+                    <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
                     <li><a class="nav-link scrollto" href="#team">Team</a></li>
                     <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
@@ -74,7 +74,7 @@
                             <li><a href="#">Drop Down 4</a></li>
                         </ul>
                     </li>
-                    <li><a class="nav-link scrollto" href="<?= base_url('/contact') ?>">Contact</a></li>
+                    <li><a class="nav-link scrollto" href="<?= base_url('/home#contact') ?>">Contact</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->
@@ -166,6 +166,7 @@
             class="bi bi-arrow-up-short"></i></a>
 
     <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter.js"></script>
     <script src="assets/vendor/aos/aos.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
