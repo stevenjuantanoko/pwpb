@@ -6,14 +6,26 @@ class Home extends BaseController
 {
     public function index()
     {
-        return view('user/index');
+        return view('layout/page_layout');
+    }
+    public function home()
+    {
+        echo view('user/index');
     }
     public function blog_grid()
     {
-        return view('user/blog-grid');
+        echo view('user/blog_grid');
     }
     public function blog_single()
     {
-        return view('user/blog-single');
+        return view('user/blog_single');
+    }
+    public function about()
+    {
+        echo view('layout/about');
+    }
+    public function contact()
+    {
+        echo view('layout/contact.php');
     }
 }

@@ -32,8 +32,12 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
-$routes->get('/blog-grid.php', 'Home::blog_grid');
-$routes->get('/blog-single.php', 'Home::blog_single');
+$routes->get('/blog_grid', 'Home::blog_grid');
+$routes->get('/blog_single', 'Home::blog_single');
+$routes->get('/home', 'Home::home');
+$routes->get('/about', 'Home::about');
+$routes->get('/contact', 'Home::contact');
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
