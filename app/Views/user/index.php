@@ -245,29 +245,29 @@
                 <div id="news-carousel" class="testimonials-slider swiper">
                     <div class="swiper-wrapper">
 
+                        <?php foreach ($berita as $b) : ?>
+
                         <div class="carousel-item-c swiper-slide">
                             <div class="card-box-b card-shadow news-box">
-                                <div class="img-box-b">
-                                    <img src="assets/img/post-2.jpg" alt="" class="img-b img-fluid">
+                                <div class="img-box-b" style="min-width:540px;">
+                                    <img src="assets/img/berita/<?= $b["newsimg"]; ?>" alt="" class="img-b img-fluid">
                                 </div>
                                 <div class="card-overlay">
                                     <div class="card-header-b">
-                                        <div class="card-category-b">
-                                            <a href="#" class="category-b">House</a>
-                                        </div>
                                         <div class="card-title-b">
                                             <h2 class="title-2">
-                                                <a href="<?= base_url('/blog_single') ?>">House is comming
-                                                    <br> new</a>
+                                                <a href="<?= base_url('/blog_single') ?>"><?= $b["judul"]; ?>
+                                                </a>
                                             </h2>
                                         </div>
                                         <div class="card-date">
-                                            <span class="date-b">18 Sep. 2017</span>
+                                            <span class="date-b"><?= $b["created_at"]; ?></span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div><!-- End carousel item -->
+                        <?php endforeach; ?>
 
                         <div class="carousel-item-c swiper-slide">
                             <div class="card-box-b card-shadow news-box">
@@ -276,9 +276,6 @@
                                 </div>
                                 <div class="card-overlay">
                                     <div class="card-header-b">
-                                        <div class="card-category-b">
-                                            <a href="#" class="category-b">Travel</a>
-                                        </div>
                                         <div class="card-title-b">
                                             <h2 class="title-2">
                                                 <a href="<?= base_url('/blog_single') ?>">Travel is comming
@@ -300,9 +297,6 @@
                                 </div>
                                 <div class="card-overlay">
                                     <div class="card-header-b">
-                                        <div class="card-category-b">
-                                            <a href="#" class="category-b">Park</a>
-                                        </div>
                                         <div class="card-title-b">
                                             <h2 class="title-2">
                                                 <a href="<?= base_url('/blog_single') ?>">Park is comming
@@ -324,9 +318,6 @@
                                 </div>
                                 <div class="card-overlay">
                                     <div class="card-header-b">
-                                        <div class="card-category-b">
-                                            <a href="#" class="category-b">Travel</a>
-                                        </div>
                                         <div class="card-title-b">
                                             <h2 class="title-2">
                                                 <a href="#">Travel is comming
@@ -542,7 +533,7 @@
 </section><!-- End Counts Section -->
 
 <!-- ======= Testimonials Section ======= -->
-<section id="testimonials" class="testimonials section-bg">
+<!-- <section id="testimonials" class="testimonials section-bg">
     <div class="container">
 
         <div class="section-title" data-aos="fade-in" data-aos-delay="100">
@@ -567,7 +558,7 @@
                         <h3>Saul Goodman</h3>
                         <h4>Ceo &amp; Founder</h4>
                     </div>
-                </div><!-- End testimonial item -->
+                </div>
 
                 <div class="swiper-slide">
                     <div class="testimonial-item">
@@ -582,7 +573,7 @@
                         <h3>Sara Wilsson</h3>
                         <h4>Designer</h4>
                     </div>
-                </div><!-- End testimonial item -->
+                </div>
 
                 <div class="swiper-slide">
                     <div class="testimonial-item">
@@ -596,7 +587,7 @@
                         <h3>Jena Karlis</h3>
                         <h4>Store Owner</h4>
                     </div>
-                </div><!-- End testimonial item -->
+                </div>
 
                 <div class="swiper-slide">
                     <div class="testimonial-item">
@@ -611,7 +602,7 @@
                         <h3>Matt Brandon</h3>
                         <h4>Freelancer</h4>
                     </div>
-                </div><!-- End testimonial item -->
+                </div>
 
                 <div class="swiper-slide">
                     <div class="testimonial-item">
@@ -626,17 +617,18 @@
                         <h3>John Larson</h3>
                         <h4>Entrepreneur</h4>
                     </div>
-                </div><!-- End testimonial item -->
+                </div>
 
             </div>
             <div class="swiper-pagination"></div>
         </div>
 
     </div>
-</section><!-- End Testimonials Section -->
+</section> -->
+<!-- End Testimonials Section -->
 
 <!-- ======= Services Section ======= -->
-<section id="services" class="services section-bg">
+<!-- <section id="services" class="services section-bg">
     <div class="container">
 
         <div class="section-title" data-aos="fade-up">
@@ -689,7 +681,7 @@
         </div>
 
     </div>
-</section><!-- End Services Section -->
+</section>End Services Section -->
 
 
 <!-- ======= Portfolio Section ======= -->
@@ -861,7 +853,7 @@
     <div class="container">
 
         <div class="section-title" data-aos="fade-up">
-            <h2>Team</h2>
+            <h2>Teacher</h2>
             <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
                 sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias
                 ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>

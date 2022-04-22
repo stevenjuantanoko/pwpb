@@ -39,9 +39,6 @@
                     </div>
                     <div class="card-overlay">
                         <div class="card-header-b">
-                            <div class="card-category-b">
-                                <a href="#" class="category-b">Travel</a>
-                            </div>
                             <div class="card-title-b">
                                 <h2 class="title-2">
                                     <a href="<?= base_url('/blog_single') ?>">Travel is comming
@@ -62,9 +59,6 @@
                     </div>
                     <div class="card-overlay">
                         <div class="card-header-b">
-                            <div class="card-category-b">
-                                <a href="<?= base_url('/blog_single') ?>" class="category-b">Travel</a>
-                            </div>
                             <div class="card-title-b">
                                 <h2 class="title-2">
                                     <a href="<?= base_url('/blog_single') ?>">Travel is comming
@@ -85,9 +79,6 @@
                     </div>
                     <div class="card-overlay">
                         <div class="card-header-b">
-                            <div class="card-category-b">
-                                <a href="#" class="category-b">Travel</a>
-                            </div>
                             <div class="card-title-b">
                                 <h2 class="title-2">
                                     <a href="<?= base_url('/blog_single') ?>">Travel is comming
@@ -108,9 +99,6 @@
                     </div>
                     <div class="card-overlay">
                         <div class="card-header-b">
-                            <div class="card-category-b">
-                                <a href="#" class="category-b">Travel</a>
-                            </div>
                             <div class="card-title-b">
                                 <h2 class="title-2">
                                     <a href="<?= base_url('/blog_single') ?>">Travel is comming
@@ -131,9 +119,6 @@
                     </div>
                     <div class="card-overlay">
                         <div class="card-header-b">
-                            <div class="card-category-b">
-                                <a href="#" class="category-b">Travel</a>
-                            </div>
                             <div class="card-title-b">
                                 <h2 class="title-2">
                                     <a href="<?= base_url('/blog_single') ?>">Travel is comming
@@ -154,9 +139,6 @@
                     </div>
                     <div class="card-overlay">
                         <div class="card-header-b">
-                            <div class="card-category-b">
-                                <a href="#" class="category-b">Travel</a>
-                            </div>
                             <div class="card-title-b">
                                 <h2 class="title-2">
                                     <a href="<?= base_url('/blog_single') ?>">Travel is comming

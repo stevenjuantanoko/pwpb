@@ -2,16 +2,33 @@
 
 namespace App\Controllers;
 
+use App\Models\BeritaModel;
+
 class Pages extends BaseController
 {
+    protected $beritaModel;
+
+    public function __construct()
+    {
+        $this->beritaModel = new BeritaModel();
+    }
+
     public function index()
     {
         return view('layout/page_layout');
     }
     public function home()
     {
-        echo view('user/index');
+
+        $berita = $this->beritaModel->findAll();
+
+        $data = [
+            'berita' => $berita
+        ];
+
+        return view('user/index', $data);
     }
+
     public function blog_grid()
     {
         echo view('user/blog_grid');

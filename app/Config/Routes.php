@@ -41,6 +41,8 @@ $routes->get('/contact', 'Pages::contact');
 $routes->get('/admin', 'Admin::dashboard');
 $routes->get('/user', 'Admin::user');
 $routes->get('/createuser', 'Admin::createuser');
+$routes->get('/berita', 'Admin::berita');
+$routes->get('/createberita', 'Admin::createberita');
 
 
 

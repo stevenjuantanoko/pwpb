@@ -33,8 +33,8 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <div class="news-img-box">
-                    <img src="assets/img/slide-3.jpg" alt="" class="img-fluid">
+                <div class="news-img-box text-center">
+                    <img src="assets/img/berita/berita.jpg" alt="" class="img-fluid">
                 </div>
             </div>
             <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
@@ -43,10 +43,6 @@
                         <li class="list-inline-item mr-2">
                             <strong>Author: </strong>
                             <span class="color-text-a">Morgan Jimenez</span>
-                        </li>
-                        <li class="list-inline-item mr-2">
-                            <strong>Category: </strong>
-                            <span class="color-text-a">Travel</span>
                         </li>
                         <li class="list-inline-item">
                             <strong>Date: </strong>

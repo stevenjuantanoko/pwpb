@@ -88,13 +88,13 @@
                 </a>
                 <ul id="tables-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
                     <li>
-                        <a href="tables-general.html">
-                            <i class="bi bi-circle"></i><span>General Tables</span>
+                        <a href="<?= base_url('/admin/user') ?>">
+                            <i class="bi bi-circle"></i><span>Data User</span>
                         </a>
                     </li>
                     <li>
-                        <a href="<?= base_url('/admin/user') ?>">
-                            <i class="bi bi-circle"></i><span>Data User</span>
+                        <a href="<?= base_url('/admin/berita') ?>">
+                            <i class="bi bi-circle"></i><span>Data Berita</span>
                         </a>
                     </li>
                 </ul>
@@ -110,11 +110,11 @@
             </li><!-- End Register Page Nav -->
 
             <li class="nav-item">
-                <a class="nav-link collapsed" href="pages-login.html">
+                <a class="nav-link collapsed" href="/">
                     <i class="bi bi-box-arrow-left"></i>
-                    <span>Login</span>
+                    <span>Logout</span>
                 </a>
-            </li><!-- End Login Page Nav -->
+            </li><!-- End Logout Page Nav -->
 
         </ul>
 

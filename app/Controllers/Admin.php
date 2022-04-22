@@ -3,16 +3,21 @@
 namespace App\Controllers;
 
 use App\Models\UserModel;
+use App\Models\BeritaModel;
 use CodeIgniter\Database\Query;
 use Config\Validation;
 
 class Admin extends BaseController
 {
     protected $userModel;
+    protected $beritaModel;
+
     public function __construct()
     {
         $this->userModel = new UserModel();
+        $this->beritaModel = new BeritaModel();
     }
+
     public function index()
     {
         return view('layout/admin_layout');
@@ -20,6 +25,10 @@ class Admin extends BaseController
     public function dashboard()
     {
         echo view('admin/index');
+    }
+    public function login()
+    {
+        echo view('admin/login');
     }
     public function user()
     {
@@ -41,7 +50,7 @@ class Admin extends BaseController
         ];
         return view('admin/createuser', $data);
     }
-    public function save()
+    public function saveuser()
     {
         ///validasi input
         if (!$this->validate([
@@ -68,8 +77,56 @@ class Admin extends BaseController
 
         return redirect()->to('/user');
     }
-    public function blog_single()
+
+    public function berita()
     {
-        return view('user/blog_single');
+        $berita = $this->beritaModel->findAll();
+
+        $data = [
+            'berita' => $berita
+        ];
+
+        return view('admin/berita', $data);
+    }
+    public function createberita()
+    {
+        $data = [
+            'validation' => \Config\Services::validation()
+        ];
+        return view('admin/createberita', $data);
+    }
+    public function saveberita()
+    {
+        ///validasi input
+        if (!$this->validate([
+            'judul' => [
+                'rules' => 'required|is_unique[berita.judul]',
+                'errors' => [
+                    'is_unique' => '{field} already exist'
+                ]
+            ],
+            'author' => 'required',
+            'newslead' => 'required',
+            'newsbody' => 'required',
+            'newsleg' => 'required'
+        ])) {
+            $validation = \Config\Services::validation();
+
+            return redirect()->to('/createberita')->withInput()->with('validation', $validation);
+        }
+
+
+        $this->beritaModel->save([
+            'judul' => $this->request->getVar('judul'),
+            'author' => $this->request->getVar('author'),
+            'newslead' => $this->request->getVar('newslead'),
+            'newsbody' => $this->request->getVar('newsbody'),
+            'newsleg' => $this->request->getVar('newsleg'),
+            'newsimg' => $this->request->getVar('newsimg')
+        ]);
+
+        session()->setFlashdata('pesan', 'Data berhasil ditambahkan');
+
+        return redirect()->to('/berita');
     }
 }
