@@ -122,7 +122,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-10 offset-md-1 col-lg-10 offset-lg-1">
+            <!-- <div class="col-md-10 offset-md-1 col-lg-10 offset-lg-1">
                 <div class="title-box-d">
                     <h3 class="title-d">Comments (4)</h3>
                 </div>
@@ -219,7 +219,7 @@
                         </div>
                     </form>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </section><!-- End Blog Single-->

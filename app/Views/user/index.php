@@ -24,18 +24,18 @@
                 <img src="assets/img/about.jpg" class="img-fluid" alt="">
             </div>
             <div class="col-xl-6 col-lg-5 pt-5 pt-lg-0">
-                <h3 data-aos="fade-up">Rekayasa Perangkat Lunak (Software Engineering)</h3>
+                <h4 data-aos="fade-up">Rekayasa Perangkat Lunak </h4>
                 <p data-aos="fade-up">
                     Program keahlian yang mempersiapkan siswa menjadi tenaga terampil di bidang pemrogaman
                     software.
                     Siswa di bekali kemampuan dasar instalasi hardware dan software komputer, penguasaan bahasa
                     pemrogaman (C++, Java, Python, JavaScript, PHP dsb),
                     dan pengolahan database (Microsoft Acces, MySQL, dsb) <br> <br>
-                    <b>Peluang Kerja: </b> <br>
-                    Menjadi tenaga ahli pemrograman komputer pada perusahaan/instansi yang khusus bergerak
-                    dibidang jasa teknologi informasi
-                    ataupun perusahaan umum yang telah menggunakan teknologi informatika (komputerisasi) dalam
-                    menjalankan aktifitaasnya atau berwirausaha.
+                <h4>Peluang Kerja: </h4>
+                Menjadi tenaga ahli pemrograman komputer pada perusahaan/instansi yang khusus bergerak
+                dibidang jasa teknologi informasi
+                ataupun perusahaan umum yang telah menggunakan teknologi informatika (komputerisasi) dalam
+                menjalankan aktifitaasnya atau berwirausaha.
                 </p>
             </div>
         </div>
